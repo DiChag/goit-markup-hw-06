@@ -1,0 +1,17 @@
+.box {
+  box-sizing: border-box;
+
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 50px;
+
+  border: 20px solid tomato;
+
+  background-color: blueviolet;
+  color: white;
+}
+
+/* .ul-wawd {
+  display: flex;
+  justify-content: center;} */
