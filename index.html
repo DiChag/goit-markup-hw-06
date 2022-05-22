@@ -69,6 +69,73 @@
               <use href="./images/sprite.svg#close-btn"></use>
             </svg>
           </button>
+          <!-- Форма -->
+          <span class="modal-title">Оставьте свои данные, мы вам перезвоним</span>
+          <form class="contact-form">
+            <label class="form-field">
+              <span class="form-label">Имя</span>
+              <span class="form-input-container">
+                <input class="form-input" name="name" type="text" />
+                <svg class="form-input-icon" width="18px" height="18px">
+                  <use href="./images/sprite.svg#person"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="form-field">
+              <span class="form-label">Телефон</span>
+              <span class="form-input-container">
+                <input class="form-input" name="phone" type="tel" />
+                <svg class="form-input-icon" width="18px" height="18px">
+                  <use href="./images/sprite.svg#phone"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="form-field">
+              <span class="form-label">Почта</span>
+              <span class="form-input-container">
+                <input class="form-input" name="email" type="email" />
+                <svg class="form-input-icon" width="18px" height="18px">
+                  <use href="./images/sprite.svg#email"></use>
+                </svg>
+              </span>
+            </label>
+
+            <label class="form-field comments">
+              <span class="form-label">Комментарий</span>
+              <span class="form-input-container">
+                <textarea
+                  class="form-comments"
+                  name="comments"
+                  placeholder="Введите текст"
+                ></textarea>
+              </span>
+            </label>
+
+            <label class="form-checkbox">
+              <span class="checkbox-container">
+                <input class="checkbox" name="agreement" type="checkbox" />
+                <svg class="checkbox-icon-checked" width="16px" height="15px">
+                  <use href="./images/sprite.svg#check"></use>
+                </svg>
+                <span class="checkbox-icon-uncheckd"></span>
+              </span>
+              <span class="checkbox-label">
+                Сошлашаюсь с рассылкой и принимаю
+                <a
+                  class="checkbox-label-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Условия договора</a
+                >
+              </span>
+            </label>
+
+            <button class="btn" type="submit">Отправить</button>
+          </form>
         </div>
       </div>
       <!-- Особенности -->
