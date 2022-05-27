@@ -42,6 +42,11 @@
   background-color: tomato;
 }
 
-.form:focus-within {
-  background-color: tomato;
+.form-field:focus-within > .icon {
+  background-color: blue;
+}
+
+.form-field:focus-within > .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-40px);
 }
